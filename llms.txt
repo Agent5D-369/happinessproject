@@ -1,0 +1,34 @@
+Happiness Project Ojochal
+
+Summary:
+Happiness Project Ojochal is a bilingual community hub in Ojochal, Costa Rica focused on learning,
+economic development, and social interaction. The site offers English and Spanish classes,
+community events, a local service directory, volunteer opportunities, sponsor pathways, and a
+Regenerative Business Lab for founders, land stewards, and mission-driven teams.
+
+Core pages:
+- /index.html: homepage and primary audience segmentation
+- /programs.html: programs hub for classes, workshops, and cohorts
+- /lab.html: Regenerative Business Lab and Readiness Scan
+- /events.html: featured events, recurring programming, and event architecture
+- /directory.html: local service directory and application pathway
+- /volunteer.html: volunteer, mentor, and teaching pathways
+- /support.html: donation, sponsorship, and partner options
+- /about.html: mission, leadership, and bridge-building story
+- /resources.html: free tools, guides, and readiness content
+- /contact.html: visits, inquiries, and partnership outreach
+
+Primary audiences:
+- Tico learners
+- Expat and international learners
+- Local residents seeking trusted services
+- Local business owners
+- Volunteers, teachers, and mentors
+- Mission-aligned founders and land stewards
+
+Primary conversions:
+- Start the Regenerative Venture Readiness Scan
+- Join a program
+- Browse or join the directory
+- Volunteer, teach, or mentor
+- Donate, sponsor, or partner

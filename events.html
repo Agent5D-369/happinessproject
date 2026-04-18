@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | Happiness Project Ojochal</title>
+  <meta name="description" content="Browse featured events, recurring series, and community gatherings in Ojochal with cleaner filters and stronger registration pathways.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">HP</span>
+      <span class="brand-copy">
+        <strong>Happiness Project</strong>
+        <small>Ojochal, Costa Rica</small>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav">
+      <a href="programs.html">Programs</a>
+      <a href="lab.html">Business Lab</a>
+      <a class="is-active" href="events.html">Events</a>
+      <a href="directory.html">Directory</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="support.html">Support</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="contact.html">Visit / Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <p class="eyebrow">Events and calendar</p>
+      <h1>Community programming with cleaner filters and better registration flow</h1>
+      <p>
+        Featured upcoming events live at the top, while recurring series and deeper calendar views
+        stay accessible without overwhelming the first screen.
+      </p>
+    </section>
+
+    <section class="section reveal">
+      <div class="filter-bar">
+        <button class="filter-chip is-active" data-filter-group="events" data-filter="all" type="button">All</button>
+        <button class="filter-chip" data-filter-group="events" data-filter="learning" type="button">Learning</button>
+        <button class="filter-chip" data-filter-group="events" data-filter="bilingual" type="button">Bilingual</button>
+        <button class="filter-chip" data-filter-group="events" data-filter="founders" type="button">Founders</button>
+        <button class="filter-chip" data-filter-group="events" data-filter="community" type="button">Community</button>
+      </div>
+      <div class="event-grid filtered-grid">
+        <article class="event-card filter-item" data-group="events" data-category="community bilingual">
+          <span class="tag">Community</span>
+          <h3>Coffee Hour</h3>
+          <p>Tuesday | 9:00 AM | Ojochal</p>
+          <small>Friendly entry point for neighbors, newcomers, and long-time residents.</small>
+        </article>
+        <article class="event-card filter-item" data-group="events" data-category="learning bilingual">
+          <span class="tag">Learning</span>
+          <h3>English Conversation Circle</h3>
+          <p>Wednesday | 3:30 PM | Community Classroom</p>
+          <small>Language growth through practical, low-pressure participation.</small>
+        </article>
+        <article class="event-card filter-item" data-group="events" data-category="founders bilingual">
+          <span class="tag">Founders</span>
+          <h3>Readiness Scan Debrief</h3>
+          <p>Thursday | 4:30 PM | Hybrid</p>
+          <small>For founders, land stewards, and local businesses using the scan as their entry point.</small>
+        </article>
+        <article class="event-card filter-item" data-group="events" data-category="learning community">
+          <span class="tag">Workshop</span>
+          <h3>How to Volunteer Well in a Bilingual Community</h3>
+          <p>Saturday | 11:00 AM | Open-air pavilion</p>
+          <small>Orientation for new contributors, mentors, and class helpers.</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Event detail template</p>
+        <h2>What each event page should communicate</h2>
+      </div>
+      <div class="pillar-grid">
+        <article>
+          <h3>Key logistics</h3>
+          <p>Date, time, audience, language, location, and fee all appear before the fold.</p>
+        </article>
+        <article>
+          <h3>Expectation setting</h3>
+          <p>Visitors see what the event is for, who it is for, what to bring, and what happens next.</p>
+        </article>
+        <article>
+          <h3>Related pathways</h3>
+          <p>Every event should link back to a program, volunteer role, or next-step offer.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Events at Happiness Project</strong>
+      <p>Community rhythm with clearer pathways into programs, volunteering, and local connection.</p>
+    </div>
+    <div class="footer-links">
+      <a href="programs.html">Programs</a>
+      <a href="contact.html">Register / ask a question</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://happinessprojectojochalcr.org/sitemap.xml

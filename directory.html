@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directory | Happiness Project Ojochal</title>
+  <meta name="description" content="Browse a stronger local service directory with categories, language filters, trust signals, and business application paths.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">HP</span>
+      <span class="brand-copy">
+        <strong>Happiness Project</strong>
+        <small>Ojochal, Costa Rica</small>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav">
+      <a href="programs.html">Programs</a>
+      <a href="lab.html">Business Lab</a>
+      <a href="events.html">Events</a>
+      <a class="is-active" href="directory.html">Directory</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="support.html">Support</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="contact.html">Visit / Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <p class="eyebrow">Directory and local services</p>
+      <h1>A searchable trust layer for local providers and community recommendations</h1>
+      <p>
+        This upgraded directory gives residents and visitors a faster way to find help, while
+        giving local businesses a more credible, useful public presence.
+      </p>
+    </section>
+
+    <section class="section reveal">
+      <div class="filter-bar">
+        <button class="filter-chip is-active" data-filter-group="directory" data-filter="all" type="button">All providers</button>
+        <button class="filter-chip" data-filter-group="directory" data-filter="builders" type="button">Builders</button>
+        <button class="filter-chip" data-filter-group="directory" data-filter="wellness" type="button">Wellness</button>
+        <button class="filter-chip" data-filter-group="directory" data-filter="bilingual" type="button">Bilingual</button>
+        <button class="filter-chip" data-filter-group="directory" data-filter="home" type="button">Home support</button>
+      </div>
+      <div class="provider-grid filtered-grid">
+        <article class="provider-card filter-item" data-group="directory" data-category="builders bilingual">
+          <span class="tag">Verified</span>
+          <h3>Soluna Build & Repair</h3>
+          <p>Builders | Ojochal to Uvita</p>
+          <small>Structural repairs, maintenance, and project coordination with bilingual client communication.</small>
+        </article>
+        <article class="provider-card filter-item" data-group="directory" data-category="wellness bilingual">
+          <span class="tag">Recommended</span>
+          <h3>Mar y Monte Wellness</h3>
+          <p>Wellness | Community-centered care</p>
+          <small>Holistic services for residents and visitors looking for grounded support.</small>
+        </article>
+        <article class="provider-card filter-item" data-group="directory" data-category="home">
+          <span class="tag">New this month</span>
+          <h3>Verde Root Land Care</h3>
+          <p>Garden and land care | Spanish-first</p>
+          <small>Routine maintenance, soil-minded planning, and property support for local homes and projects.</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Category architecture</p>
+        <h2>Category pages designed for both usability and discoverability</h2>
+      </div>
+      <div class="directory-shortcuts">
+        <span>/directory/builders</span>
+        <span>/directory/garden-and-land-care</span>
+        <span>/directory/food-and-hospitality</span>
+        <span>/directory/wellness</span>
+        <span>/directory/legal-and-finance</span>
+        <span>/directory/technology-and-design</span>
+      </div>
+    </section>
+
+    <section class="section reveal" id="directory-apply">
+      <div class="section-heading">
+        <p class="eyebrow">Directory application</p>
+        <h2>Apply to join the directory</h2>
+      </div>
+      <form class="stack-form">
+        <div class="form-grid">
+          <label>Business name<input type="text" placeholder="Your business"></label>
+          <label>Owner name<input type="text" placeholder="Owner or lead contact"></label>
+          <label>Category<input type="text" placeholder="Builders, childcare, wellness"></label>
+          <label>Service area<input type="text" placeholder="Ojochal, Uvita, Costa Ballena"></label>
+          <label>Languages spoken<input type="text" placeholder="Spanish, English, bilingual"></label>
+          <label>WhatsApp<input type="text" placeholder="+506..."></label>
+          <label>Email<input type="email" placeholder="hello@example.com"></label>
+          <label>Website or social<input type="text" placeholder="Website, Instagram, Facebook"></label>
+          <label>Years in operation<input type="text" placeholder="1, 5, 12"></label>
+          <label>Pricing band<input type="text" placeholder="Budget, mid-range, premium"></label>
+        </div>
+        <label>Short description<textarea rows="4" placeholder="What do you do, and why do people trust your work?"></textarea></label>
+        <label>References or certifications<textarea rows="4" placeholder="References, credentials, or community endorsements"></textarea></label>
+        <button class="button button-primary" type="button">Submit application</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Local services with stronger trust signals</strong>
+      <p>Helping residents find help and helping local businesses be easier to choose.</p>
+    </div>
+    <div class="footer-links">
+      <a href="contact.html">Request help</a>
+      <a href="support.html">Sponsor visibility</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

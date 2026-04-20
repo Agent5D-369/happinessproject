@@ -607,8 +607,8 @@ h3 {
 
 .page-hero,
 .section {
-  padding-top: clamp(3.4rem, 6vw, 5.6rem);
-  padding-bottom: clamp(3.4rem, 6vw, 5.6rem);
+  padding-top: clamp(3rem, 5vw, 4.8rem);
+  padding-bottom: clamp(3rem, 5vw, 4.8rem);
 }
 
 .page-hero {
@@ -616,20 +616,20 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  gap: 1rem;
+  gap: 0.85rem;
   position: relative;
   isolation: isolate;
   overflow: clip;
-  padding-top: clamp(2.2rem, 4vw, 3.6rem);
-  padding-bottom: clamp(2.2rem, 4vw, 3.2rem);
+  padding-top: clamp(1.9rem, 3.4vw, 3rem);
+  padding-bottom: clamp(1.9rem, 3.2vw, 2.7rem);
 }
 
 .page-hero > * {
-  max-width: min(52rem, 100%);
+  max-width: min(46rem, 100%);
 }
 
 .page-hero h1 {
-  max-width: 15ch;
+  max-width: 13ch;
   text-wrap: balance;
 }
 
@@ -652,7 +652,7 @@ h3 {
 .section-heading {
   display: grid;
   gap: 0.9rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.6rem;
 }
 
 .section-heading.narrow {
@@ -766,11 +766,14 @@ h3 {
 .pillar-grid,
 .ecosystem-grid,
 .story-grid,
-.support-grid,
 .program-grid,
 .guide-grid,
 .faq-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.support-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .ecosystem-grid article,
@@ -978,21 +981,21 @@ h3 {
 
 .contact-shell {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
-  gap: 2rem;
+  grid-template-columns: minmax(0, 0.88fr) minmax(340px, 1.12fr);
+  gap: 1.5rem;
   align-items: start;
 }
 
 .contact-rail {
   display: grid;
-  gap: 1rem;
+  gap: 0.9rem;
 }
 
 .contact-card,
 .contact-form-shell {
   display: grid;
   gap: 0.95rem;
-  padding: 1.5rem;
+  padding: 1.35rem;
   border-radius: var(--radius);
   background: rgba(255, 253, 247, 0.74);
   border: 1px solid var(--line);
@@ -1018,6 +1021,11 @@ h3 {
   flex-wrap: wrap;
   gap: 0.8rem;
   margin-top: 0.35rem;
+}
+
+.contact-form-shell {
+  position: sticky;
+  top: calc(var(--header-height) + 1rem);
 }
 
 .contact-form-shell .section-heading {
@@ -1149,6 +1157,10 @@ textarea {
   .hero-home .scene-panel {
     width: 100%;
   }
+
+  .support-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 780px) {
@@ -1219,6 +1231,10 @@ textarea {
 
   .contact-card-actions .button {
     width: 100%;
+  }
+
+  .contact-form-shell {
+    position: static;
   }
 
   .hero-quicklinks {
